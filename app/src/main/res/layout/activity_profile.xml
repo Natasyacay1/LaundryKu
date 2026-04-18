@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cream">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/teal"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="16dp"
+            android:paddingEnd="20dp"
+            android:paddingTop="40dp"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:id="@+id/tvBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="← "
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit Profil"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Avatar area -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/teal"
+            android:gravity="center"
+            android:paddingBottom="24dp">
+
+            <LinearLayout
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:background="@drawable/bg_circle_cream"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="👤"
+                    android:textSize="32sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Email (read-only) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/bg_card_white"
+            android:elevation="2dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="📧 "
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="email@email.com"
+                android:textColor="@color/gray"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <!-- Form -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@drawable/bg_card_white"
+            android:elevation="3dp"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Informasi Pribadi"
+                android:textColor="@color/teal_dark"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_marginTop="14dp" android:text="Nama Lengkap"
+                android:textColor="@color/black" android:textSize="13sp" android:textStyle="bold"/>
+            <EditText android:id="@+id/etName" android:layout_width="match_parent"
+                android:layout_height="48dp" android:layout_marginTop="6dp"
+                android:background="@drawable/bg_input_field" android:hint="Nama lengkap"
+                android:inputType="textPersonName" android:paddingStart="14dp"
+                android:paddingEnd="14dp" android:textSize="14sp"/>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_marginTop="14dp" android:text="Nomor HP"
+                android:textColor="@color/black" android:textSize="13sp" android:textStyle="bold"/>
+            <EditText android:id="@+id/etPhone" android:layout_width="match_parent"
+                android:layout_height="48dp" android:layout_marginTop="6dp"
+                android:background="@drawable/bg_input_field" android:hint="08xxxxxxxxxx"
+                android:inputType="phone" android:paddingStart="14dp"
+                android:paddingEnd="14dp" android:textSize="14sp"/>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_marginTop="14dp" android:text="Alamat"
+                android:textColor="@color/black" android:textSize="13sp" android:textStyle="bold"/>
+            <EditText android:id="@+id/etAddress" android:layout_width="match_parent"
+                android:layout_height="80dp" android:layout_marginTop="6dp"
+                android:background="@drawable/bg_input_field" android:gravity="top|start"
+                android:hint="Alamat lengkap" android:inputType="textMultiLine"
+                android:paddingStart="14dp" android:paddingEnd="14dp"
+                android:paddingTop="10dp" android:textSize="14sp"/>
+
+            <View android:layout_width="match_parent" android:layout_height="1dp"
+                android:layout_marginTop="20dp" android:background="@color/cream_dark"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Ubah Password (opsional)"
+                android:textColor="@color/teal_dark"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_marginTop="14dp" android:text="Password Lama"
+                android:textColor="@color/black" android:textSize="13sp" android:textStyle="bold"/>
+            <EditText android:id="@+id/etOldPassword" android:layout_width="match_parent"
+                android:layout_height="48dp" android:layout_marginTop="6dp"
+                android:background="@drawable/bg_input_field" android:hint="Masukkan password lama"
+                android:inputType="textPassword" android:paddingStart="14dp"
+                android:paddingEnd="14dp" android:textSize="14sp"/>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_marginTop="14dp" android:text="Password Baru"
+                android:textColor="@color/black" android:textSize="13sp" android:textStyle="bold"/>
+            <EditText android:id="@+id/etNewPassword" android:layout_width="match_parent"
+                android:layout_height="48dp" android:layout_marginTop="6dp"
+                android:background="@drawable/bg_input_field" android:hint="Min. 6 karakter"
+                android:inputType="textPassword" android:paddingStart="14dp"
+                android:paddingEnd="14dp" android:textSize="14sp"/>
+
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/bg_button_coral"
+                android:text="SIMPAN PERUBAHAN"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/cream">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:background="@color/teal" android:gravity="center_vertical" android:orientation="horizontal"
+            android:paddingStart="16dp" android:paddingEnd="20dp" android:paddingTop="40dp" android:paddingBottom="20dp">
+            <TextView android:id="@+id/tvBack" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="8dp" android:text="← " android:textColor="@color/white" android:textSize="20sp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Buat Order Baru" android:textColor="@color/white" android:textSize="18sp" android:textStyle="bold"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_margin="16dp" android:background="@drawable/bg_card_white"
+            android:elevation="4dp" android:orientation="vertical" android:padding="20dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Pilih Layanan" android:textColor="@color/black" android:textSize="13sp" android:textStyle="bold"/>
+            <Spinner android:id="@+id/spService" android:layout_width="match_parent" android:layout_height="48dp"
+                android:layout_marginTop="6dp" android:background="@drawable/bg_input_field"/>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_marginTop="8dp" android:background="@drawable/bg_card_cream_solid"
+                android:gravity="center_vertical" android:orientation="horizontal" android:padding="10dp">
+                <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+                    android:id="@+id/tvPrice" android:text="Rp 0/kg" android:textColor="@color/teal"
+                    android:textSize="13sp" android:textStyle="bold"/>
+                <TextView android:id="@+id/tvEstimate" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="⏱ 2 hari" android:textColor="@color/gray" android:textSize="12sp"/>
+            </LinearLayout>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_marginTop="14dp" android:text="Berat / Jumlah"
+                android:textColor="@color/black" android:textSize="13sp" android:textStyle="bold"/>
+            <EditText android:id="@+id/etWeight" android:layout_width="match_parent" android:layout_height="48dp"
+                android:layout_marginTop="6dp" android:background="@drawable/bg_input_field"
+                android:hint="Masukkan berat (cth: 2.5)" android:inputType="numberDecimal"
+                android:paddingStart="14dp" android:paddingEnd="14dp" android:textSize="14sp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_marginTop="14dp" android:text="Kode Promo (opsional)"
+                android:textColor="@color/black" android:textSize="13sp" android:textStyle="bold"/>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_marginTop="6dp" android:orientation="horizontal">
+                <EditText android:id="@+id/etPromoCode" android:layout_width="0dp" android:layout_height="48dp"
+                    android:layout_weight="1" android:layout_marginEnd="8dp" android:background="@drawable/bg_input_field"
+                    android:hint="Contoh: HEMAT10" android:inputType="textCapCharacters"
+                    android:paddingStart="14dp" android:paddingEnd="14dp" android:textSize="14sp"/>
+                <Button android:id="@+id/btnApplyPromo" android:layout_width="wrap_content" android:layout_height="48dp"
+                    android:background="@drawable/bg_card_teal" android:text="Pakai"
+                    android:textColor="@color/white" android:textSize="13sp"/>
+            </LinearLayout>
+            <TextView android:id="@+id/tvPromoResult" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_marginTop="6dp" android:textSize="12sp" android:visibility="gone"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_marginTop="14dp" android:text="Catatan (opsional)"
+                android:textColor="@color/black" android:textSize="13sp" android:textStyle="bold"/>
+            <EditText android:id="@+id/etNotes" android:layout_width="match_parent" android:layout_height="70dp"
+                android:layout_marginTop="6dp" android:background="@drawable/bg_input_field"
+                android:gravity="top|start" android:hint="Contoh: pisahkan baju putih"
+                android:inputType="textMultiLine" android:paddingStart="14dp"
+                android:paddingEnd="14dp" android:paddingTop="10dp" android:textSize="14sp"/>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_marginTop="16dp" android:background="@drawable/bg_card_teal_light"
+                android:orientation="vertical" android:padding="12dp">
+                <TextView android:id="@+id/tvTotal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Subtotal: Rp 0" android:textColor="@color/teal_dark" android:textSize="13sp"/>
+                <TextView android:id="@+id/tvDiscount" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp" android:text="" android:textColor="@color/coral"
+                    android:textSize="12sp" android:visibility="gone"/>
+                <TextView android:id="@+id/tvFinalTotal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp" android:text="TOTAL: Rp 0"
+                    android:textColor="@color/teal_dark" android:textSize="17sp" android:textStyle="bold"/>
+            </LinearLayout>
+            <Button android:id="@+id/btnOrder" android:layout_width="match_parent" android:layout_height="52dp"
+                android:layout_marginTop="16dp" android:background="@drawable/bg_button_coral"
+                android:text="KIRIM ORDER" android:textColor="@color/white" android:textSize="15sp" android:textStyle="bold"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

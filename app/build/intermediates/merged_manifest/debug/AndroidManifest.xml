@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.laundryapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="33" />
+
+    <permission
+        android:name="com.example.laundryapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.laundryapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.LaundryApp" >
+        <activity
+            android:name="com.example.laundryapp.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.LaundryApp.Splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.laundryapp.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.laundryapp.RegisterActivity"
+            android:exported="false" />
+        <!-- Admin -->
+        <activity
+            android:name="com.example.laundryapp.AdminDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.laundryapp.AdminOrderActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.laundryapp.AdminCustomerActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.laundryapp.AdminServiceActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.laundryapp.AdminReportActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.laundryapp.AdminPromoActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.laundryapp.AdminManageAdminActivity"
+            android:exported="false" />
+        <!-- Customer -->
+        <activity
+            android:name="com.example.laundryapp.CustomerDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.laundryapp.CustomerOrderActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.laundryapp.CustomerHistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.laundryapp.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.laundryapp.NotificationActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.laundryapp.RatingActivity"
+            android:exported="false" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.example.laundryapp.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+    </application>
+
+</manifest>

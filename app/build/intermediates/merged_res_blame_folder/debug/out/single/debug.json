@@ -1,0 +1,230 @@
+[
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\drawable_bg_button_outline_cream.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\drawable\\bg_button_outline_cream.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\drawable_bg_status_process.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\drawable\\bg_status_process.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\layout_activity_admin_dashboard.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\layout\\activity_admin_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\layout_item_notification.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\layout\\item_notification.xml"
+    },
+    {
+        "merged": "com.example.laundryapp-merged_res-30:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.laundryapp-main-32:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.laundryapp-merged_res-30:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.laundryapp-main-32:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.laundryapp-merged_res-30:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.laundryapp-main-32:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\layout_activity_customer_dashboard.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\layout\\activity_customer_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\drawable_bg_card_white.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\drawable\\bg_card_white.xml"
+    },
+    {
+        "merged": "com.example.laundryapp-merged_res-30:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.laundryapp-main-32:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.laundryapp-merged_res-30:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.laundryapp-main-32:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\layout_activity_admin_customer.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\layout\\activity_admin_customer.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\drawable_bg_icon_teal_light.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\drawable\\bg_icon_teal_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\drawable_bg_card_coral.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\drawable\\bg_card_coral.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\layout_dialog_service.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\layout\\dialog_service.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\drawable_bg_card_cream_alpha.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\drawable\\bg_card_cream_alpha.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\layout_activity_profile.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\drawable_bg_circle_cream.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\drawable\\bg_circle_cream.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\layout_dialog_edit_order.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\layout\\dialog_edit_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\layout_item_promo.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\layout\\item_promo.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\layout_activity_admin_service.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\layout\\activity_admin_service.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\drawable_bg_circle_coral.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\drawable\\bg_circle_coral.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\drawable_bg_status_taken.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\drawable\\bg_status_taken.xml"
+    },
+    {
+        "merged": "com.example.laundryapp-merged_res-30:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.laundryapp-main-32:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\layout_activity_admin_order.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\layout\\activity_admin_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\layout_activity_rating.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\layout\\activity_rating.xml"
+    },
+    {
+        "merged": "com.example.laundryapp-merged_res-30:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.laundryapp-main-32:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.laundryapp-merged_res-30:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.laundryapp-main-32:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\drawable_bg_card_cream_solid.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\drawable\\bg_card_cream_solid.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\layout_activity_customer_order.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\layout\\activity_customer_order.xml"
+    },
+    {
+        "merged": "com.example.laundryapp-merged_res-30:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.laundryapp-main-32:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\layout_item_service.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\layout\\item_service.xml"
+    },
+    {
+        "merged": "com.example.laundryapp-merged_res-30:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.laundryapp-main-32:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\layout_item_order.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\layout\\item_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\layout_activity_admin_report.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\layout\\activity_admin_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\layout_activity_admin_promo.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\layout\\activity_admin_promo.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\drawable_bg_status_pending.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\drawable\\bg_status_pending.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\layout_dialog_promo.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\layout\\dialog_promo.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\drawable_bg_status_done.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\drawable\\bg_status_done.xml"
+    },
+    {
+        "merged": "com.example.laundryapp-merged_res-30:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.laundryapp-main-32:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\drawable_bg_icon_red_light.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\drawable\\bg_icon_red_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\drawable_bg_input_field.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\drawable\\bg_input_field.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\layout_activity_customer_history.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\layout\\activity_customer_history.xml"
+    },
+    {
+        "merged": "com.example.laundryapp-merged_res-30:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.laundryapp-main-32:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\drawable_bg_card_teal_light.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\drawable\\bg_card_teal_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\layout_activity_admin_manage_admin.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\layout\\activity_admin_manage_admin.xml"
+    },
+    {
+        "merged": "com.example.laundryapp-merged_res-30:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.laundryapp-main-32:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\layout_activity_notification.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\layout\\activity_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\drawable_bg_card_teal.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\drawable\\bg_card_teal.xml"
+    },
+    {
+        "merged": "com.example.laundryapp-merged_res-30:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.laundryapp-main-32:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\layout_item_customer.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\layout\\item_customer.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\drawable_bg_button_coral.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\drawable\\bg_button_coral.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\drawable_bg_circle_teal.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\drawable\\bg_circle_teal.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-merged_res-30:\\layout_dialog_add_admin.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\7.6\\com.example.laundryapp-main-32:\\layout\\dialog_add_admin.xml"
+    }
+]
